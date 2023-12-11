@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fdf7e4;
+}
+.card {
+  width: 300px;
+  height: 400px;
+  background-color: #faeed1;
+  border-radius: 0.5rem;
+}
+.imgDiv {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgDiv img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid #ded0b6;
+}
+.title {
+  margin-top: 1rem;
+  text-align: center;
+}
+.link {
+  margin-top: 0.9rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
+}
+.link i {
+  cursor: pointer;
+  padding: 0.3rem;
+  background-color: #bbab8c;
+  border-radius: 50%;
+  transition: 0.6s ease-in-out;
+}
+.link i:hover {
+  background-color: #faeed1;
+}
+.btn {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn button {
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  cursor: pointer;
+  margin: 0.4rem;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 10rem;
+  background-color: #bbab8c;
+}

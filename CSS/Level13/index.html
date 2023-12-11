@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box:first-child {
+        color: rgb(43, 128, 202);
+      }
+      .box:nth-child(odd) {
+        background-color: aqua;
+      }
+      .boxes * {
+        border: 2px solid rebeccapurple;
+      }
+      .boxes::before {
+        content: "Hello";
+      }
+      .boxes::after {
+        content: "BD";
+      }
+      ::selection {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="boxes">
+      <div class="box">Box one</div>
+      <div class="box">Box two</div>
+      <div class="box">Box three</div>
+    </div>
+  </body>
+</html>

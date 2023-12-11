@@ -1,0 +1,32 @@
+.container {
+  width: 70vw;
+  height: 50vh;
+  background-color: aquamarine;
+  position: relative;
+}
+.ball {
+  position: absolute;
+  bottom: 0;
+  width: 6vw;
+  height: 5vh;
+  background-color: red;
+  border-radius: 50%;
+  animation: AnimationX 3s linear infinite,
+    AnimationY 1s ease-out infinite alternate;
+}
+@keyframes AnimationX {
+  from {
+    left: 0;
+  }
+  to {
+    left: 100%;
+  }
+}
+@keyframes AnimationY {
+  from {
+    bottom: 0;
+  }
+  to {
+    bottom: 60%;
+  }
+}

@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+header {
+  width: 100vw;
+  height: 55vh;
+}
+nav {
+  padding: 10px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.logo img {
+  width: 150px;
+}
+.links ul {
+  display: flex;
+}
+.links li {
+  cursor: pointer;
+  padding: 0 15px;
+  list-style: none;
+}
+.heroHeader {
+  margin-top: 70px;
+  display: flex;
+  gap: 1.5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7rem;
+}
+.heroHeader p {
+  font-size: 1.4rem;
+  text-align: center;
+}
+.herobtn a {
+  text-decoration: none;
+}
+.herobtn a:visited {
+  color: white;
+}
+.herobtn button {
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 10px 15px;
+  border: none;
+  color: white;
+  background-color: #00b6d1;
+  border-radius: 0.5rem;
+}
+.downloadSec {
+  margin: auto;
+  width: 70vw;
+}
+.Relase {
+  margin-left: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.Relase img {
+  padding: 1rem;
+  transform: translateY(14px);
+}
+.download {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+.downloadBox {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9f9f9;
+}
+.dBtn {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  justify-content: space-between;
+}
+.dBtn a {
+  text-decoration: none;
+}
+.dBtn a:visited {
+  color: white;
+}
+.dBtn button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #00b6d1;
+  border-radius: 0.5rem;
+}
+.NewsLetter {
+  color: white;
+  margin-top: 4rem;
+  width: 100vw;
+  height: 100vh;
+  background-color: #222222;
+}
+.formBox {
+  padding: 6rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.infoNews {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.formBoxx {
+  padding: 2rem;
+  color: #222222;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: #f9f9f9;
+  border-radius: 0.5rem;
+}
+.formBoxx h3 {
+  color: #00b6d1;
+}
+.formBoxx input {
+  padding: 1rem 4rem;
+  border: 2px solid #444444;
+}
+.formBoxx button {
+  padding: 1rem 4rem;
+  border: none;
+  background-color: #00b6d1;
+  border-radius: 0.5rem;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+
+  gap: 1rem;
+  margin: auto;
+  width: 50vw;
+}

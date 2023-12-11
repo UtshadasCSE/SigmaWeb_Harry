@@ -1,0 +1,18 @@
+.container {
+  width: 45vw;
+  height: 30vh;
+  background-color: aqua;
+}
+.box {
+  width: 5vw;
+  height: 5vh;
+  background-color: rebeccapurple;
+  animation: Anmi 3s 3;
+}
+@keyframes Anmi {
+  from {
+  }
+  to {
+    transform: translateY(100%);
+  }
+}
